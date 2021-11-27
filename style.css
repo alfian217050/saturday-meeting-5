@@ -1,0 +1,50 @@
+.bg-img {
+	background-image: url(img/hero-img.png);
+	background-size: cover;
+	text-align: center;
+	height: 600px;
+	position: relative;
+}
+
+.scroll {
+	overflow-x: scroll;
+}
+
+.width-18r {
+	width: 21rem;
+}
+
+.mt-150 {
+	margin-top: 150px;
+}
+
+.bd-rounded {
+	border-radius: 10px;
+}
+
+.bolds {
+	font-weight: 700;
+}
+
+.bg-position-center {
+	background-position: center;
+}
+
+.bg-blue {
+	background: #0063bf;
+}
+
+.scroll-bars::-webkit-scrollbar-track {
+	border-radius: 5px;
+	border: 7px solid #d9d9d9;
+	box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-bars::-webkit-scrollbar {
+	width: 25px;
+}
+
+.scroll-bars::-webkit-scrollbar-thumb {
+	background: linear-gradient(45deg, #06dee1, #79ff6c);
+	border-radius: 5px;
+}
